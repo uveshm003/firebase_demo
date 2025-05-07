@@ -34,6 +34,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  rename: ^3.0.2
+  package_rename: ^1.10.0
 
 dev_dependencies:
   flutter_test:
@@ -46,6 +48,38 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
 
+package_rename_config:
+  android:
+    app_name: Firebase Demo
+    package_name: com.uvesh.firebase
+    override_old_package: com.example.firebase_demo
+    lang: kotlin
+
+  ios:
+    app_name: Firebase Demo
+    bundle_name: com.uvesh.firebase
+    package_name: com.uvesh.firebase
+
+  web:
+    app_name: Firebase Demo
+    description: Firebase Project.
+
+  linux:
+    app_name: Firebase Demo
+    package_name: com.uvesh.firebase
+    exe_name: firebase-demo
+
+  windows:
+    app_name: Firebase Demo
+    organization: Uvesh
+    copyright_notice: Copyright ©️ 2022 Uvesh. All rights reserved.
+    exe_name: firebase-demo
+
+  macos:
+    app_name: Firebase Demo
+    package_name: com.uvesh.firebase
+    copyright_notice: Copyright ©️ 2022 Uvesh. All rights reserved.
+    
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

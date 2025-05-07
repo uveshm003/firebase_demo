@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "firebase_demo" "\0"
+            VALUE "CompanyName", "Uvesh" "\0"
+            VALUE "FileDescription", "Firebase Demo" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "firebase_demo" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "firebase_demo.exe" "\0"
-            VALUE "ProductName", "firebase_demo" "\0"
+            VALUE "InternalName", "Firebase Demo" "\0"
+            VALUE "LegalCopyright", "Copyright ©️ 2022 Uvesh. All rights reserved." "\0"
+            VALUE "OriginalFilename", "firebase-demo.exe" "\0"
+            VALUE "ProductName", "Firebase Demo" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

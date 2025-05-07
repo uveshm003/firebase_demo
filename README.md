@@ -1,5 +1,8 @@
 # firebase_demo
 
+AppName - Firebase Demo
+BundleId - com.uvesh.firebase
+
 A new Flutter project.
 
 ## Getting Started

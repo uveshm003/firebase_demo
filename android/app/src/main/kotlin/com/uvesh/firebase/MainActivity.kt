@@ -1,4 +1,4 @@
-package com.example.firebase_demo
+package com.uvesh.firebase
 
 import io.flutter.embedding.android.FlutterActivity
 
