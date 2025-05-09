@@ -9,16 +9,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Container(),
-    );
-  }
-}
-
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(home: Container());
   }
 }
